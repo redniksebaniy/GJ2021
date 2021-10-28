@@ -5,14 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class Teleporter : MonoBehaviour
 {
-    public int scene = 0;
+    public int scene = 1;
 
     public void TimeJump()
     {
         switch(scene)
         {
-            case 0: SceneManager.LoadScene(1); break;
-            case 1: SceneManager.LoadScene(0); break;
+            case 1: SceneManager.LoadScene(2); break;
+            case 2: SceneManager.LoadScene(1); break;
         }
         Debug.Log("Time Jumped");
     }
