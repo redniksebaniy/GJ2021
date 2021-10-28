@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class MouseLook : MonoBehaviour
 {
-    public float mouseSen = 100f;
+    public float MouseSen = 100f;
     public Transform playerBody;
 
     float xRotation = 0f;
-
-    public void setmouseSen(float newmouseSen) { mouseSen = newmouseSen; }
 
     void Start()
     {
@@ -18,8 +16,8 @@ public class MouseLook : MonoBehaviour
 
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X") * mouseSen * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSen * Time.deltaTime;
+        float mouseX = Input.GetAxis("Mouse X") * MouseSen * Time.deltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * MouseSen * Time.deltaTime;
 
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
@@ -27,4 +25,6 @@ public class MouseLook : MonoBehaviour
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         playerBody.Rotate(Vector3.up * mouseX);
     }
+
+    public void setMouseSen(float newMouseSen) { MouseSen = newMouseSen; }
 }

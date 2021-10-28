@@ -311,4 +311,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _fpsCamera: {fileID: 1498708094539020273}
+  PlayerObj: {fileID: 1498708094823454780}
+  TextUIDown: {fileID: 7494793953540478015, guid: add14bb3c12e36140ad5b5c62a190d25, type: 3}
   _maxDistanceRay: 1.5
