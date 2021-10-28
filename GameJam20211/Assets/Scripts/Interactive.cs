@@ -15,7 +15,7 @@ public class Interactive : MonoBehaviour
     private RaycastHit _hit;
     private float _maxDistanceRay = 3f;
 
-    [SerializeField] string tag;
+    string tag;
     Vector3 camPos; //П: переменная для изменения позиции камеры
 
     private void Start()
@@ -30,6 +30,7 @@ public class Interactive : MonoBehaviour
     {
         _ray = _fpsCamera.ScreenPointToRay(new Vector2(Screen.width / 2, Screen.height / 2)); //П: создание луча
         TextUIDown.SetActive(false); //М: Держим надпись выключенной
+
 
         if (Physics.Raycast(_ray, out _hit, _maxDistanceRay)) //П: в зависимости от того, куда смотрит игрок, рисуется зелёный или белый луч
             Debug.DrawRay(_ray.origin, _ray.direction * _maxDistanceRay, Color.green);
@@ -62,8 +63,10 @@ public class Interactive : MonoBehaviour
                         {
                             _fpsCamera.transform.position += _ray.direction * 0.75f;
                             _playermovement.setSpeed(0f);
-                            _mouselook.setMouseSen(10f);
+                            _mouselook.setMouseSen(0f); //М: Пока поставил на ноль из-за бага(Канвас не пропадает если курсор убрать с монитора и отжать кнопку).
+                            _hit.transform.GetComponent<CanvasActivate>().CanvasOn(); //М: включаем слой с пикчей
                         }
+                        //else if (Input.GetKeyUp(KeyCode.E)) //М: выключаем слой с пикчей
                         break;
                     }
                 case "Dissapear":
@@ -75,6 +78,11 @@ public class Interactive : MonoBehaviour
                         }
                         break;
                     }
+                case "Sounder":
+                    {
+                        if (Input.GetKeyDown(KeyCode.E)) _hit.transform.GetComponent<SoundPlay>().play();
+                        break;
+                    }
                 default: if (Input.GetKey(KeyCode.E)) TextUIDown.SetActive(false); break;
             }
         }
@@ -83,7 +91,8 @@ public class Interactive : MonoBehaviour
                 _fpsCamera.transform.localPosition = camPos;
                 _playermovement.setSpeed(5f);
                 _mouselook.setMouseSen(200f);
-            }
+            _hit.transform.GetComponent<CanvasActivate>().CanvasOFF();
+        }
         }
 }
 
