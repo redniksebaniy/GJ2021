@@ -15,7 +15,6 @@ public class Interactive : MonoBehaviour
     private RaycastHit _hit;
     private float _maxDistanceRay = 3f;
 
-    [SerializeField] string tag;
     Vector3 camPos; //ѕ: переменна€ дл€ изменени€ позиции камеры
 
     private void Start()
@@ -43,8 +42,7 @@ public class Interactive : MonoBehaviour
         if (_hit.transform != null)
         {
             
-            tag = _hit.transform.tag;
-            switch (tag)
+            switch (_hit.transform.tag)
             {
                 case "Teleport":
                     {
