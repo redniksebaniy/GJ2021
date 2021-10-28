@@ -7,7 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Menu.unity
-    guid: 42c3a69dd398fa3488d1c851fa00f7fc
+    guid: 40333cac401571c4c812ddcdb702ed59
   - enabled: 1
     path: Assets/FlatNow.unity
     guid: fd0a812fe8d40a74fb8efa94edd6076e
