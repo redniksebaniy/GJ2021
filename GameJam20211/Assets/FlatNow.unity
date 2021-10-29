@@ -3996,6 +3996,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: 1
+  Data: {fileID: 0}
 --- !u!65 &2193423313726855594
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5992,7 +5993,7 @@ GameObject:
   - component: {fileID: 4356877828227600004}
   m_Layer: 0
   m_Name: CompNoInfo
-  m_TagString: Interactive
+  m_TagString: InteractiveCanvas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

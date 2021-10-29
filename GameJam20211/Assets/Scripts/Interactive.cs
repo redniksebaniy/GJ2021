@@ -14,8 +14,10 @@ public class Interactive : MonoBehaviour
     private Ray _ray;
     private RaycastHit _hit;
     private float _maxDistanceRay = 3f;
+    
 
-    string tag;
+    [SerializeField] string tag;
+    bool canvas = false;
     Vector3 camPos; //П: переменная для изменения позиции камеры
 
     private void Start()
@@ -56,6 +58,25 @@ public class Interactive : MonoBehaviour
                         }
                         break;
                     }
+                case "InteractiveCanvas":
+                    {
+                        TextUIDown.SetActive(true);
+                        if (Input.GetKeyDown(KeyCode.E)) //П: в момент нажатия телепортируем камеру и присваиваем новые значения
+                        {
+                            _fpsCamera.transform.position += _ray.direction * 0.75f;
+                            _playermovement.setSpeed(0f);
+                            _mouselook.setMouseSen(0f); //М: Пока поставил на ноль из-за бага(Канвас не пропадает если курсор убрать с монитора и отжать кнопку).
+                            _hit.transform.GetComponent<CanvasActivate>().CanvasOn();
+                        }
+                        else if (Input.GetKeyUp(KeyCode.E))
+                        {
+                            _fpsCamera.transform.localPosition = camPos;
+                            _playermovement.setSpeed(5f);
+                            _mouselook.setMouseSen(200f);
+                            _hit.transform.GetComponent<CanvasActivate>().CanvasOFF(); 
+                        }
+                        break;
+                    }
                 case "Interactive":
                     {
                         TextUIDown.SetActive(true);
@@ -64,9 +85,13 @@ public class Interactive : MonoBehaviour
                             _fpsCamera.transform.position += _ray.direction * 0.75f;
                             _playermovement.setSpeed(0f);
                             _mouselook.setMouseSen(0f); //М: Пока поставил на ноль из-за бага(Канвас не пропадает если курсор убрать с монитора и отжать кнопку).
-                            _hit.transform.GetComponent<CanvasActivate>().CanvasOn(); //М: включаем слой с пикчей
                         }
-                        //else if (Input.GetKeyUp(KeyCode.E)) //М: выключаем слой с пикчей
+                        else if (Input.GetKeyUp(KeyCode.E))
+                        {
+                            _fpsCamera.transform.localPosition = camPos;
+                            _playermovement.setSpeed(5f);
+                            _mouselook.setMouseSen(200f);
+                        }
                         break;
                     }
                 case "Dissapear":
@@ -85,13 +110,6 @@ public class Interactive : MonoBehaviour
                     }
                 default: if (Input.GetKey(KeyCode.E)) TextUIDown.SetActive(false); break;
             }
-        }
-            if (Input.GetKeyUp(KeyCode.E)) //П: в момент отжатия)) кнопки всё возвращаем в норму
-            {
-                _fpsCamera.transform.localPosition = camPos;
-                _playermovement.setSpeed(5f);
-                _mouselook.setMouseSen(200f);
-            _hit.transform.GetComponent<CanvasActivate>().CanvasOFF();
         }
         }
 }

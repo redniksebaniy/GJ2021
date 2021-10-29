@@ -314,7 +314,6 @@ MonoBehaviour:
   _fpsCamera: {fileID: 1498708094539020273}
   PlayerObj: {fileID: 1498708094823454780}
   TextUIDown: {fileID: 7494793953540478015, guid: add14bb3c12e36140ad5b5c62a190d25, type: 3}
-  tag: 
 --- !u!82 &-2129096946233231464
 AudioSource:
   m_ObjectHideFlags: 0

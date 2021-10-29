@@ -9,6 +9,7 @@ TagManager:
   - Dissapear
   - Translater
   - Sounder
+  - InteractiveCanvas
   layers:
   - Default
   - TransparentFX
