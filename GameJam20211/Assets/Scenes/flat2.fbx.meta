@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: 0be03ff03d1f41e44b80de70b2ae1aab
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -4887017922100112267
+    second: ImportantPizzaBox|Char_x_10|Take 001|BaseLayer
+  - first:
+      74: -5959077756664328149
+    second: ImportantPizzaBox|Char_x_11|Take 001|BaseLayer
+  - first:
+      74: -5431131208613723598
+    second: ImportantPizzaBox|Char_x_12|Take 001|BaseLayer
+  - first:
+      74: -5321497907124577025
+    second: ImportantPizzaBox|Char_x_13|Take 001|BaseLayer
+  - first:
+      74: -88490585462940483
+    second: ImportantPizzaBox|Char_x_14|Take 001|BaseLayer
+  - first:
+      74: -7795133095278025448
+    second: ImportantPizzaBox|Char_x_15|Take 001|BaseLayer
+  - first:
+      74: 6395706835995372999
+    second: ImportantPizzaBox|Char_x_16|Take 001|BaseLayer
+  - first:
+      74: 1946079840559902455
+    second: ImportantPizzaBox|Char_x_17|Take 001|BaseLayer
+  - first:
+      74: 1522797660481132299
+    second: ImportantPizzaBox|Char_x_18|Take 001|BaseLayer
+  - first:
+      74: 8869195595965668351
+    second: ImportantPizzaBox|Char_x_19|Take 001|BaseLayer
+  - first:
+      74: 7761366260811436472
+    second: ImportantPizzaBox|Char_x_1|Take 001|BaseLayer
+  - first:
+      74: 5230682365347185593
+    second: ImportantPizzaBox|Char_x_20|Take 001|BaseLayer
+  - first:
+      74: 8180509264919174582
+    second: ImportantPizzaBox|Char_x_21|Take 001|BaseLayer
+  - first:
+      74: -4487921358237677777
+    second: ImportantPizzaBox|Char_x_22|Take 001|BaseLayer
+  - first:
+      74: 9138487721791088763
+    second: ImportantPizzaBox|Char_x_23|Take 001|BaseLayer
+  - first:
+      74: -7474227040555925097
+    second: ImportantPizzaBox|Char_x_24|Take 001|BaseLayer
+  - first:
+      74: 4795947728519718285
+    second: ImportantPizzaBox|Char_x_25|Take 001|BaseLayer
+  - first:
+      74: -1013829919067505361
+    second: ImportantPizzaBox|Char_x_26|Take 001|BaseLayer
+  - first:
+      74: 6718702484569930007
+    second: ImportantPizzaBox|Char_x_27|Take 001|BaseLayer
+  - first:
+      74: 2173821305811506761
+    second: ImportantPizzaBox|Char_x_2|Take 001|BaseLayer
+  - first:
+      74: 1473245107394232656
+    second: ImportantPizzaBox|Char_x_3|Take 001|BaseLayer
+  - first:
+      74: -5433922743494807272
+    second: ImportantPizzaBox|Char_x_4|Take 001|BaseLayer
+  - first:
+      74: 7924933260508201375
+    second: ImportantPizzaBox|Char_x_5|Take 001|BaseLayer
+  - first:
+      74: 6871049275786332610
+    second: ImportantPizzaBox|Char_x_6|Take 001|BaseLayer
+  - first:
+      74: -3818146388100805283
+    second: ImportantPizzaBox|Char_x_7|Take 001|BaseLayer
+  - first:
+      74: -1390967297107793419
+    second: ImportantPizzaBox|Char_x_8|Take 001|BaseLayer
+  - first:
+      74: 3217009896813426807
+    second: ImportantPizzaBox|Char_x_9|Take 001|BaseLayer
+  - first:
+      74: -8994710668867880275
+    second: Armature.001|Char_x_10|Take 001|BaseLayer
+  - first:
+      74: 6779207638639027902
+    second: Armature.001|Char_x_11|Take 001|BaseLayer
+  - first:
+      74: 8721824222972172377
+    second: Armature.001|Char_x_12|Take 001|BaseLayer
+  - first:
+      74: -3891025886483986460
+    second: Armature.001|Char_x_13|Take 001|BaseLayer
+  - first:
+      74: -9168814860073743009
+    second: Armature.001|Char_x_14|Take 001|BaseLayer
+  - first:
+      74: -925470140028668038
+    second: Armature.001|Char_x_15|Take 001|BaseLayer
+  - first:
+      74: -5670315430246506677
+    second: Armature.001|Char_x_16|Take 001|BaseLayer
+  - first:
+      74: 6505268233746128629
+    second: Armature.001|Char_x_17|Take 001|BaseLayer
+  - first:
+      74: -7838310031266304415
+    second: Armature.001|Char_x_18|Take 001|BaseLayer
+  - first:
+      74: -8377217760963575839
+    second: Armature.001|Char_x_19|Take 001|BaseLayer
+  - first:
+      74: -8610336415968632245
+    second: Armature.001|Char_x_1|Take 001|BaseLayer
+  - first:
+      74: -7567888923185193595
+    second: Armature.001|Char_x_20|Take 001|BaseLayer
+  - first:
+      74: -7877625573491711391
+    second: Armature.001|Char_x_21|Take 001|BaseLayer
+  - first:
+      74: -3250307792021513812
+    second: Armature.001|Char_x_22|Take 001|BaseLayer
+  - first:
+      74: 4215325514814866798
+    second: Armature.001|Char_x_23|Take 001|BaseLayer
+  - first:
+      74: -5798110318495766674
+    second: Armature.001|Char_x_24|Take 001|BaseLayer
+  - first:
+      74: -5066089918950012472
+    second: Armature.001|Char_x_25|Take 001|BaseLayer
+  - first:
+      74: 4677529308886042860
+    second: Armature.001|Char_x_26|Take 001|BaseLayer
+  - first:
+      74: -5443621373546046769
+    second: Armature.001|Char_x_27|Take 001|BaseLayer
+  - first:
+      74: -1223837334655868757
+    second: Armature.001|Char_x_2|Take 001|BaseLayer
+  - first:
+      74: 8075639202634246502
+    second: Armature.001|Char_x_3|Take 001|BaseLayer
+  - first:
+      74: -3900304096470123350
+    second: Armature.001|Char_x_4|Take 001|BaseLayer
+  - first:
+      74: 8120559208861798656
+    second: Armature.001|Char_x_5|Take 001|BaseLayer
+  - first:
+      74: 2023139733601308208
+    second: Armature.001|Char_x_6|Take 001|BaseLayer
+  - first:
+      74: 2571903648882781605
+    second: Armature.001|Char_x_7|Take 001|BaseLayer
+  - first:
+      74: -1739771294475614914
+    second: Armature.001|Char_x_8|Take 001|BaseLayer
+  - first:
+      74: 8929130918218637779
+    second: Armature.001|Char_x_9|Take 001|BaseLayer
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
