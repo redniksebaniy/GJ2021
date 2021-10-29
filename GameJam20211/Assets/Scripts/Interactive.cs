@@ -14,11 +14,18 @@ public class Interactive : MonoBehaviour
     private Ray _ray;
     private RaycastHit _hit;
     private float _maxDistanceRay = 3f;
-    
 
+    [SerializeField] public static int inv = 0;
     [SerializeField] string tag;
     bool canvas = false;
     Vector3 camPos; //П: переменная для изменения позиции камеры
+
+    public static int AddItem()
+    {
+        Debug.Log(inv);
+        return inv++;
+
+    }
 
     private void Start()
     {
@@ -100,7 +107,9 @@ public class Interactive : MonoBehaviour
                         if (Input.GetKeyDown(KeyCode.E))
                         {
                             _hit.transform.GetComponent<TextAppear>().dissapear(); //М: вызываем метод скрипта(чек скрипт)
+                            AddItem();
                         }
+                        
                         break;
                     }
                 case "Sounder":
