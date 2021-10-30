@@ -188,7 +188,7 @@ MonoBehaviour:
   _fpsCamera: {fileID: 3803921320690731089}
   PlayerObj: {fileID: 3803921320966236060}
   TextUIDown: {fileID: 0}
-  tag: 
+  _maxDistanceRay: 3
 --- !u!82 &4788919322827835448
 AudioSource:
   m_ObjectHideFlags: 0
@@ -198,7 +198,7 @@ AudioSource:
   m_GameObject: {fileID: 3803921320966236060}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 7e30daa2dd5a0784da1c570c2d8b6248, type: 2}
   m_audioClip: {fileID: 8300000, guid: b343f16498a1f6540a065564f7da2eb2, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1

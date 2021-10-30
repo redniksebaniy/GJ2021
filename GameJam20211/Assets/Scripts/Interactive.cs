@@ -16,17 +16,14 @@ public class Interactive : MonoBehaviour
     public float _maxDistanceRay = 3f;
 
     [SerializeField] public static int inv = 0;
-    [SerializeField] string tag;
     bool canvas = false;
     Vector3 camPos; //ѕ: переменна€ дл€ изменени€ позиции камеры
 
     public static int AddItem()
     {
-        
         inv++;
         Debug.Log(inv);
         return inv;
-
     }
 
     private void Start()
@@ -54,9 +51,7 @@ public class Interactive : MonoBehaviour
     {
         if (_hit.transform != null)
         {
-            
-            tag = _hit.transform.tag;
-            switch (tag)
+            switch (_hit.transform.tag)
             {
                 case "Teleport":
                     {
@@ -80,7 +75,7 @@ public class Interactive : MonoBehaviour
                         else if (Input.GetKeyUp(KeyCode.E))
                         {
                             _fpsCamera.transform.localPosition = camPos;
-                            _playermovement.setSpeed(5f);
+                            _playermovement.setSpeed(10f);
                             _mouselook.setMouseSen(200f);
                             _hit.transform.GetComponent<CanvasActivate>().CanvasOFF(); 
                         }
@@ -98,7 +93,7 @@ public class Interactive : MonoBehaviour
                         else if (Input.GetKeyUp(KeyCode.E))
                         {
                             _fpsCamera.transform.localPosition = camPos;
-                            _playermovement.setSpeed(5f);
+                            _playermovement.setSpeed(10f);
                             _mouselook.setMouseSen(200f);
                         }
                         break;

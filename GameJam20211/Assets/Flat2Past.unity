@@ -214,7 +214,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -1611,7 +1611,7 @@ RectTransform:
   m_GameObject: {fileID: 2131001563}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5031447, y: 0.5594406, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1252438404}
   m_RootOrder: 0
@@ -3594,7 +3594,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2647813835506044322}
-  - component: {fileID: 2804881141410999090}
   m_Layer: 0
   m_Name: Armature.001
   m_TagString: Untagged
@@ -3602,19 +3601,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &2804881141410999090
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2804881141410999089}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &2806493389159709290
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9192,7 +9178,7 @@ AudioSource:
   m_GameObject: {fileID: 7983349051333371650}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 7e30daa2dd5a0784da1c570c2d8b6248, type: 2}
   m_audioClip: {fileID: 8300000, guid: 6698474158bca88428efe0b9fe8518f4, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -9288,7 +9274,7 @@ AudioSource:
   m_GameObject: {fileID: 7983349051333371650}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 7e30daa2dd5a0784da1c570c2d8b6248, type: 2}
   m_audioClip: {fileID: 8300000, guid: 41380b459d9c5244f83553f6d384535c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1

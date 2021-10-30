@@ -1517,7 +1517,7 @@ RectTransform:
   m_GameObject: {fileID: 1693852395}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5031447, y: 0.5594406, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 539848949}
   m_RootOrder: 0
@@ -1829,7 +1829,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1559465079618469460}
-  - component: {fileID: 186563459496193844}
   m_Layer: 0
   m_Name: ImportantPizzaBox
   m_TagString: Untagged
@@ -1837,19 +1836,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &186563459496193844
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 186563459496193843}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &219948691150574299
 Transform:
   m_ObjectHideFlags: 0
@@ -2630,7 +2616,7 @@ AudioSource:
   m_GameObject: {fileID: 886481166874847014}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 7e30daa2dd5a0784da1c570c2d8b6248, type: 2}
   m_audioClip: {fileID: 8300000, guid: 6698474158bca88428efe0b9fe8518f4, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -2726,7 +2712,7 @@ AudioSource:
   m_GameObject: {fileID: 886481166874847014}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 7e30daa2dd5a0784da1c570c2d8b6248, type: 2}
   m_audioClip: {fileID: 8300000, guid: 0102842fad1894a43b0384c0050956b6, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -5891,7 +5877,7 @@ AudioSource:
   m_GameObject: {fileID: 3912553855871102653}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 7e30daa2dd5a0784da1c570c2d8b6248, type: 2}
   m_audioClip: {fileID: 8300000, guid: d4060fb018310bf49a41fdfa4c3cbb84, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -6695,7 +6681,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5060085419085434246}
-  - component: {fileID: 4930057096645700374}
   m_Layer: 0
   m_Name: Armature.001
   m_TagString: Untagged
@@ -6703,19 +6688,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &4930057096645700374
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4930057096645700373}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &4932935384755862094
 MeshFilter:
   m_ObjectHideFlags: 0
