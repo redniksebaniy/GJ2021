@@ -14,4 +14,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FlatWithRedLightPast.unity
     guid: 98b9196c5aaaf53459c7508a6bd72bc4
+  - enabled: 1
+    path: Assets/FlatManWithGlass.unity
+    guid: 35d7b0837ae87c644918b97f357fddfe
+  - enabled: 1
+    path: Assets/Coridor.unity
+    guid: 2ea0f49201d1db84fafc81361ea99598
+  - enabled: 1
+    path: Assets/Flat2.unity
+    guid: 171863e222329aa4285047f5691710b9
+  - enabled: 1
+    path: Assets/Flat2Past.unity
+    guid: 9a4ee50a6de746a4fa5a2a5ac1e2d8af
+  - enabled: 1
+    path: Assets/Flat3.unity
+    guid: 25a6bf283559fd44688938567e1f4927
+  - enabled: 1
+    path: Assets/Flat3Past.unity
+    guid: 6742a30def9223b4ba8a0b53c2f64479
   m_configObjects: {}

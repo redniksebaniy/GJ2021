@@ -13,7 +13,7 @@ public class Interactive : MonoBehaviour
 
     private Ray _ray;
     private RaycastHit _hit;
-    private float _maxDistanceRay = 3f;
+    public float _maxDistanceRay = 3f;
 
     [SerializeField] public static int inv = 0;
     [SerializeField] string tag;
@@ -22,8 +22,10 @@ public class Interactive : MonoBehaviour
 
     public static int AddItem()
     {
+        
+        inv++;
         Debug.Log(inv);
-        return inv++;
+        return inv;
 
     }
 
@@ -101,20 +103,98 @@ public class Interactive : MonoBehaviour
                         }
                         break;
                     }
-                case "Dissapear":
+                case "Cup":
                     {
                         TextUIDown.SetActive(true); //М: Наводимся на объект взаимодействия - надпись появляется
                         if (Input.GetKeyDown(KeyCode.E))
                         {
-                            _hit.transform.GetComponent<TextAppear>().dissapear(); //М: вызываем метод скрипта(чек скрипт)
+                            _hit.transform.GetComponent<TextAppearCup>().dissapear(); //М: вызываем метод скрипта(чек скрипт)
                             AddItem();
                         }
-                        
+
                         break;
+                    }
+                case "Knife":
+                    {
+                        TextUIDown.SetActive(true); //М: Наводимся на объект взаимодействия - надпись появляется
+                        if (Input.GetKeyDown(KeyCode.E))
+                        {
+                            _hit.transform.GetComponent<TextAppearKnife>().dissapear(); //М: вызываем метод скрипта(чек скрипт)
+                            AddItem();
+                        }
+
+                        break;
+                    }
+                case "Horn":
+                    {
+                        TextUIDown.SetActive(true); //М: Наводимся на объект взаимодействия - надпись появляется
+                        if (Input.GetKeyDown(KeyCode.E))
+                        {
+                            _hit.transform.GetComponent<TextAppearHorn>().dissapear(); //М: вызываем метод скрипта(чек скрипт)
+                            AddItem();
+                        }
+
+                        break;
+                    }
+                case "Flecha":
+                    {
+                        TextUIDown.SetActive(true); //М: Наводимся на объект взаимодействия - надпись появляется
+                        if (Input.GetKeyDown(KeyCode.E))
+                        {
+                            _hit.transform.GetComponent<TextAppearFlecha>().dissapear(); //М: вызываем метод скрипта(чек скрипт)
+                            AddItem();
+                        }
+
+                        break;
+                    }
+                case "Penta":
+                    {
+                        TextUIDown.SetActive(true); //М: Наводимся на объект взаимодействия - надпись появляется
+                        if (Input.GetKeyDown(KeyCode.E))
+                        {
+                            _hit.transform.GetComponent<TextAppearPenta>().dissapear(); //М: вызываем метод скрипта(чек скрипт)
+                            AddItem();
+                        }
+
+                        break;
+                    }
+                case "Alchemy":
+                    {
+                        TextUIDown.SetActive(true); //М: Наводимся на объект взаимодействия - надпись появляется
+                        if (Input.GetKeyDown(KeyCode.E))
+                        {
+                            _hit.transform.GetComponent<TextAppearAlchemy>().dissapear(); //М: вызываем метод скрипта(чек скрипт)
+                            AddItem();
+                        }
+
+                        break;
+                    }
+                case "Ouija":
+                    {
+                        TextUIDown.SetActive(true); //М: Наводимся на объект взаимодействия - надпись появляется
+                        if (Input.GetKeyDown(KeyCode.E))
+                        {
+                            _hit.transform.GetComponent<TextAppearOuija>().dissapear(); //М: вызываем метод скрипта(чек скрипт)
+                            AddItem();
+                        }
+
+                        break;
+
                     }
                 case "Sounder":
                     {
+                        TextUIDown.SetActive(true);
                         if (Input.GetKeyDown(KeyCode.E)) _hit.transform.GetComponent<SoundPlay>().play();
+                        break;
+                    }
+                case "Key":
+                    {
+                        TextUIDown.SetActive(true); //М: Наводимся на объект взаимодействия - надпись появляется
+                        if (Input.GetKeyDown(KeyCode.E))
+                        {
+                            _hit.transform.GetComponent<TextAppearKey>().dissapear(); //М: вызываем метод скрипта(чек скрипт)
+                            AddItem();
+                        }
                         break;
                     }
                 default: if (Input.GetKey(KeyCode.E)) TextUIDown.SetActive(false); break;

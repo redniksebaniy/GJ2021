@@ -9,11 +9,7 @@ public class Teleporter : MonoBehaviour
 
     public void TimeJump()
     {
-        switch(scene)
-        {
-            case 1:SceneManager.LoadScene(2); break;
-            case 2:SceneManager.LoadScene(1); break;
-        }
+        SceneManager.LoadScene(scene);
         Debug.Log("Time Jumped");
     }
 }
