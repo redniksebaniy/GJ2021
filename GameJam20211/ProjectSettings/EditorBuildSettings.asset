@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Flat3Past.unity
     guid: 6742a30def9223b4ba8a0b53c2f64479
+  - enabled: 1
+    path: Assets/The End.unity
+    guid: b3696db4e77113a4ebfeb98c4e479c36
   m_configObjects: {}

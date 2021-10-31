@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Interactive : MonoBehaviour
 {
@@ -15,14 +16,18 @@ public class Interactive : MonoBehaviour
     private RaycastHit _hit;
     public float _maxDistanceRay = 3f;
 
-    [SerializeField] public static int inv = 0;
-    bool canvas = false;
+    [SerializeField] public static int inv = 0; 
     Vector3 camPos; //ѕ: переменна€ дл€ изменени€ позиции камеры
 
     public static int AddItem()
     {
+
         inv++;
         Debug.Log(inv);
+        if (inv == 8)
+        {
+            SceneManager.LoadScene(9);
+        }
         return inv;
     }
 
